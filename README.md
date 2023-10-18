@@ -1,2 +1,6 @@
 # Laracast-Tutorial
-Walk through tutorial 
+
+Walk through tutorial
+
+Name - Tamanna Tamanna
+Repository link - https://github.com/theeValeyard/Laracast-Tutorial

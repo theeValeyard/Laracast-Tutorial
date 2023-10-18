@@ -7,20 +7,27 @@
 </head>
 
 <body>
-<h1> Recommended Books</h1>
 
 <?php 
 $books = [
-    "Do Androids Dream of Electric Sheep",
-    "The Langoliers",
-    "Hail Mary"
+   ['name' => 'Do Androids Dream of Electric Sheep',
+   'author' => 'Philip K. Dick',
+   'purchaseUrl' => 'http://example.com'],
+
+    ['name' => 'The Langoliers',
+   'author' => 'Andy Weir',
+   'purchaseUrl' => 'http://example.com',],
+
+    ['name' => 'Hail Mary',
+    'author' => 'Philip K. Dick',
+    'purchaseUrl' => 'http://example.com']
 ];
 ?>
-<p>
-    <?= $books[0];
-    ?>
-</p>
-
+ <ul>
+        <?php foreach ($books as $book): ?> 
+            <li><?= $book ['name'] ?></li>
+        <?php endforeach; ?>
+ </ul>
 </body>
 
 </html>

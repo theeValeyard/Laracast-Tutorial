@@ -26,8 +26,9 @@
         $message = "You have NOT read $name";
     }
     ?>
+
     <h1>
-        <?php echo $message; ?>
+        <?= $message; ?>
     </h1>
 </body>
 

@@ -34,11 +34,13 @@
     ?>
     <ul>
         <?php foreach ($books as $book) : ?>
-            <li>
-                <a href="<?= $book['purchaseUrl']; ?>">
-                    <?= $book['name']; ?> ( <?= $book['releaseYear']; ?>)
-                </a>
-            </li>
+            <?php if ($book['author'] === 'Andy Weir') : ?>
+                <li>
+                    <a href="<?= $book['purchaseUrl']; ?>">
+                        <?= $book['name']; ?> ( <?= $book['releaseYear']; ?>) - By <?= $book['author']; ?>
+                    </a>
+                </li>
+            <?php endif; ?>
         <?php endforeach; ?>
     </ul>
 </body>

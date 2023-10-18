@@ -16,8 +16,11 @@
 </head>
 
 <body>
+    <?php 
+    $name = "Dark Matter";
+    ?>
     <h1>
-   You have read "Dark Matter."
+   You have read "<?php echo $name; ?>"
     </h1>
 </body>
 

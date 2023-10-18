@@ -18,7 +18,7 @@
 <body>
     <?php 
     $name = "Dark Matter";
-    $read = false; 
+    $read = true; 
 
     if ($read) {
         $message = "You have read $name";

@@ -9,10 +9,17 @@
 <body>
     <h1> Recommended Books</h1>
 
+    <?php 
+    $books = [
+        "Do Androids Dream of Electric Sheep"
+        "The Langoliers"
+        "Hail Mary"
+    ];
+    ?>
+
     <ul>
-        <li>Do Androids Dream of Electric Sheep</li>
-        <li>The Langoliers</li>
-        <li>Hail Mary</li>
+        <?php 
+        ?>
     </ul>
 </body>
 

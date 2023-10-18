@@ -39,4 +39,4 @@ $filteredBooks = filter($books, function ($book) {
     return $book['releaseYear'] > 2000;
 });
 
-require "separate-logic-from-template-html.php";
+require "separate-logic-from-template-html.php"; //to pull information from the html file
